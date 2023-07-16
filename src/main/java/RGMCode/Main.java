@@ -6,15 +6,16 @@ public class Main {
         ShopService service = new ShopService();
 
         System.out.println(service.listProducts());
+
+        System.out.println("--------------------------------");
+
         System.out.println(service.getProduct(1));
         System.out.println(service.getProduct(2));
         System.out.println(service.getProduct(3));
 
-        System.out.println("-------------------");
+        System.out.println("--------------------------------");
 
         System.out.println(service.addOrder());
-
-
 
     }
 
