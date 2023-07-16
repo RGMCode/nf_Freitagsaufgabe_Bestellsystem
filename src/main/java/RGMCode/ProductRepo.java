@@ -4,9 +4,9 @@ package RGMCode;
 import java.util.*;
 
 public class ProductRepo {
-    Product product1 = new Product(1, "Apfel");
-    Product product2 = new Product(2, "Banane");
-    Product product3 = new Product(3, "Clementine");
+    Product product1 = new Product(1, "Apfel", 0.67);
+    Product product2 = new Product(2, "Banane", 0.79);
+    Product product3 = new Product(3, "Clementine", 0.89);
     Map<Integer, Product> products = new HashMap<>();
 
     public Map<Integer, Product> list(){

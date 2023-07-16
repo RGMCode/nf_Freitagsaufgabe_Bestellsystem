@@ -19,12 +19,12 @@ public class ShopService {
         return orderRepo.add();
     }
 
-    public void getOrders(){
-
+    public Order getOrder(int id){
+        return orderRepo.get(id);
     }
 
-    public void listOrders(){
-
+    public Map<Integer, Order> listOrders(){
+        return orderRepo.list();
     }
 
 }

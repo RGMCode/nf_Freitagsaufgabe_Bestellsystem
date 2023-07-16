@@ -37,7 +37,7 @@ public class Order {
         return "Order{" +
                 "id=" + id +
                 ", products=" + products +
-                '}';
+                '}' + '\n' ;
     }
 
 }

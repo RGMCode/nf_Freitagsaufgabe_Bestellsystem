@@ -17,6 +17,15 @@ public class Main {
 
         System.out.println(service.addOrder());
 
+        System.out.println("--------------------------------");
+
+        System.out.println(service.getOrder(1));
+        System.out.println(service.getOrder(2));
+
+        System.out.println("--------------------------------");
+
+        System.out.println(service.listOrders());
+
     }
 
 }

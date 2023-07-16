@@ -8,12 +8,12 @@ public class OrderRepo {
     Map<Integer, Order> orders = new HashMap<>();
     ProductRepo productRepo = new ProductRepo();
 
-    public void list(){
-
+    public Map<Integer, Order> list(){
+        return orders;
     }
 
-    public void get(){
-
+    public Order get(int id){
+        return orders.get(id);
     }
 
     public Map<Integer, Order> add(){
